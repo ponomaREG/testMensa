@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_width">250dp</dimen>
+    <dimen name="circleimage_height">280dp</dimen>
+    <dimen name="circleimage_width">280dp</dimen>
+    <dimen name="buttonsMarginTop">20dp</dimen>
+    <dimen name="mainButtonBeginTextSize">30sp</dimen>
+    <dimen name="mainButtonInfoTextSize">30sp</dimen>
+    <dimen name="textSize24">24sp</dimen>
+    <dimen name="textSize20">20sp</dimen>
+    <dimen name="paddingAnswers">15sp</dimen>
+    <dimen name="resultsScore">68sp</dimen>
+    <dimen name="resultsDescription">28sp</dimen>
+    <dimen name="dialogTextSizeText">25sp</dimen>
+    <dimen name="dialogTextSizeTask">38sp</dimen>
+    <dimen name="dialogMargin">10sp</dimen>
+    <dimen name="pointsHeightDefault">12dp</dimen>
+    <dimen name="marginLayoutDefault">12dp</dimen>
+    <dimen name="marginLayoutMedium">18dp</dimen>
+    <dimen name="blockAnswerHeightSmall">108dp</dimen>
+    <dimen name="blockAnswerMarginTopVerySmall">10dp</dimen>
+</resources>

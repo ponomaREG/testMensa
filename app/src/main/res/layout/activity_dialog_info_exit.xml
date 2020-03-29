@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:background="@drawable/dialog_style">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dialogTextSizeTask"
+            android:id="@+id/dialogTask"
+            android:gravity="center"
+            android:text="@string/dialogTaskInfoExit"
+            android:textColor="@color/fullBlack"
+            android:layout_marginTop="@dimen/dialogMargin" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dialogDescription"
+                android:text="@string/dialogDescExit"
+                android:textSize="@dimen/dialogTextSizeText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <Button
+                    android:id="@+id/dialogNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/dialogNo"
+                    android:textSize="@dimen/textSize24"
+                    android:textColor="@color/fullBlack"
+                    android:textAllCaps="false"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginEnd="@dimen/dialogMargin"
+                    android:background="@drawable/button_selection"
+                    android:layout_marginRight="@dimen/dialogMargin" />
+                <Button
+                    android:id="@+id/dialogYes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/dialogYes"
+                    android:textSize="@dimen/textSize24"
+                    android:textColor="@color/fullBlack"
+                    android:textAllCaps="false"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginEnd="@dimen/dialogMargin"
+                    android:background="@drawable/button_selection"
+                    android:layout_marginRight="@dimen/dialogMargin" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

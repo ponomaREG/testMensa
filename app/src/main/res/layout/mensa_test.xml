@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MensaTest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mensaBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_selection"
+                android:text="@string/mensaBack"
+                android:textAllCaps="false"
+                android:textColor="@color/fullBlack"
+                android:textSize="@dimen/textSize24"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/mensaTimeView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/static_cell_style"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="@dimen/textSize24"
+                android:textColor="@color/fullBlack"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/mensaQuestionNumber"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/static_cell_style"
+                android:textSize="@dimen/textSize24"
+                android:textColor="@color/fullBlack"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/marginLayoutMedium"
+            android:orientation="horizontal"
+            android:id="@+id/pointsLL">
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/taskLY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/marginLayoutMedium"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/mensaTask"
+                    android:layout_width="0dp"
+                    android:layout_height="319dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/answer_style"
+                    android:gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/question"
+                    android:tag="null" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/marginLayoutMedium"
+            android:orientation="horizontal"
+            android:id="@+id/answerLLtop">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/blockAnswerHeightSmall"
+                android:gravity="center"
+                android:tag="A"
+                android:scaleType="centerCrop"
+                android:padding="@dimen/paddingAnswers"
+                android:layout_weight="1"
+                android:src="@drawable/question"
+                android:id="@+id/answer_1"
+                android:layout_marginEnd="@dimen/blockAnswerMarginTopVerySmall"
+                android:background="@drawable/answer_style"
+                android:layout_marginRight="@dimen/blockAnswerMarginTopVerySmall" />
+
+            <ImageView
+                android:id="@+id/answer_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/blockAnswerHeightSmall"
+                android:layout_marginEnd="@dimen/blockAnswerMarginTopVerySmall"
+                android:layout_marginRight="@dimen/blockAnswerMarginTopVerySmall"
+                android:layout_weight="1"
+                android:background="@drawable/answer_style"
+                android:gravity="center"
+                android:scaleType="centerCrop"
+                android:padding="@dimen/paddingAnswers"
+                android:src="@drawable/question"
+                android:tag="B"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/blockAnswerHeightSmall"
+                android:gravity="center"
+                android:id="@+id/answer_3"
+                android:tag="C"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:padding="@dimen/paddingAnswers"
+                android:src="@drawable/question"
+                android:layout_marginEnd="@dimen/blockAnswerMarginTopVerySmall"
+                android:background="@drawable/answer_style"
+                android:layout_marginRight="@dimen/blockAnswerMarginTopVerySmall" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/marginLayoutDefault"
+            android:orientation="horizontal"
+            android:id="@+id/answerLLbottom">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/blockAnswerHeightSmall"
+                android:gravity="center"
+                android:tag="D"
+                android:scaleType="centerCrop"
+                android:padding="@dimen/paddingAnswers"
+                android:layout_weight="1"
+                android:src="@drawable/question"
+                android:id="@+id/answer_4"
+                android:layout_marginEnd="@dimen/blockAnswerMarginTopVerySmall"
+                android:background="@drawable/answer_style"
+                android:layout_marginRight="@dimen/blockAnswerMarginTopVerySmall" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/blockAnswerHeightSmall"
+                android:gravity="center"
+                android:tag="E"
+                android:id="@+id/answer_5"
+                android:scaleType="centerCrop"
+                android:padding="@dimen/paddingAnswers"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/blockAnswerMarginTopVerySmall"
+                android:src="@drawable/question"
+                android:background="@drawable/answer_style"
+                android:layout_marginRight="@dimen/blockAnswerMarginTopVerySmall" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/blockAnswerHeightSmall"
+                android:gravity="center"
+                android:id="@+id/answer_6"
+                android:tag="F"
+                android:scaleType="centerCrop"
+                android:padding="@dimen/paddingAnswers"
+                android:layout_weight="1"
+                android:src="@drawable/question"
+                android:layout_marginEnd="@dimen/blockAnswerMarginTopVerySmall"
+                android:background="@drawable/answer_style"
+                android:layout_marginRight="@dimen/blockAnswerMarginTopVerySmall" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/marginLayoutMedium"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mensaSkip"
+                    android:background="@drawable/button_selection"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/mensaSkip"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/textSize24" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_gravity="right">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mensaFinish"
+                    android:background="@drawable/button_selection"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/mensaFinish"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/textSize24" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

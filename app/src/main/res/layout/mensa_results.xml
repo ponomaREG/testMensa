@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBackground"
+    tools:context=".MensaResults">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resultsScore"
+                android:textColor="@color/fullBlack"
+                android:textSize="@dimen/resultsScore"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginLayoutDefault"
+                android:id="@+id/resultsDescription"
+                android:gravity="center"
+                android:textColor="@color/fullBlack"
+                android:textSize="@dimen/resultsDescription" />
+
+            <Button
+                android:layout_marginTop="@dimen/buttonsMarginTop"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/mainButtonBeginTextSize"
+                android:id="@+id/resultsTryAgain"
+                android:text="@string/resultsTryAgain"/>
+
+            <Button
+                android:layout_width="@dimen/button_width"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/mainButtonInfoTextSize"
+                android:id="@+id/resultsExit"
+                android:text="@string/resultsExit"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
