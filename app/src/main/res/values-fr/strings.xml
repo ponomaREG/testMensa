@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Test Mensa</string>
+    <string name="mainBegin">Commencez</string>
+    <string name="mainInfo">Information</string>
+    <string name="mensaQuestion">%d question</string>
+    <string name="mensaTime">"%d:%s"</string>
+    <string name="mensaBack">Retour</string>
+    <string name="mensaSkip">Alors</string>
+    <string name="mensaFinish">Finir</string>
+    <string name="resultsTryAgain">Passer un autre</string>
+    <string name="resultsExit">Quitter</string>
+    <string name="resultsFinalScorePlusDeviation">%d +-15</string>
+    <string name="resultsScoreDescription">Votre IQ est supérieur à %.2f pour cent de la population</string>
+    <string name="tagPointNumber">1</string>
+    <string name="tagClosed">2</string>
+    <string name="dialogYes">Oui</string>
+    <string name="dialogNo">Non</string>
+    <string name="dialogTaskInfo">Information</string>
+    <string name="dialogExit">Sortez</string>
+    <string name="dialogContinue">Continuez</string>
+    <string name="dialogTaskInfoExit">Quitter</string>
+    <string name="dialogDescExit">Êtes-vous sûr de vouloir sortir?</string>
+    <string name="dialogDescInfo">Le test est tiré du site mensa.no</string>
+</resources>

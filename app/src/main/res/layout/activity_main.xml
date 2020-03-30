@@ -36,6 +36,14 @@
                 android:id="@+id/mainInfo"
                 android:text="@string/mainInfo"/>
 
+<!--            <ImageView-->
+<!--                android:layout_marginTop="@dimen/mainLanguageMargin"-->
+<!--                android:layout_width="@dimen/mainLanguageSize"-->
+<!--                android:layout_height="@dimen/mainLanguageSize"-->
+<!--                android:src="@drawable/ru_flag"-->
+<!--                android:id="@+id/currentLanguage"/>-->
+
+
         </LinearLayout>
 
 

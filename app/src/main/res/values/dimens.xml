@@ -19,4 +19,6 @@
     <dimen name="marginLayoutMedium">18dp</dimen>
     <dimen name="blockAnswerHeightSmall">108dp</dimen>
     <dimen name="blockAnswerMarginTopVerySmall">10dp</dimen>
+    <dimen name="mainLanguageMargin">10dp</dimen>
+    <dimen name="mainLanguageSize">68sp</dimen>
 </resources>

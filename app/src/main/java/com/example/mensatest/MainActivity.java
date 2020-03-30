@@ -10,7 +10,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.mensatest.Managers.Mensa;
 
 import java.util.Objects;
 
@@ -22,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initButtonsAndSetOcl();
+//        initLanguageButtonAndInitForOcl();
     }
 
 
@@ -55,11 +55,46 @@ public class MainActivity extends AppCompatActivity {
         dialog.setContentView(R.layout.activity_dialog_info);
         Objects.requireNonNull(dialog.getWindow()).setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialog.setCancelable(true);
-        View.OnClickListener ocl = v -> {
-            dialog.cancel();
-        };
+        View.OnClickListener ocl = v -> dialog.cancel();
         dialog.findViewById(R.id.dialogButtonMoveOn).setOnClickListener(ocl);
         dialog.show();
     }
+//
+//
+//    private void setImageInLanguageFirstLaunch(){
+//        if(SwitchLanguage.getLanguage(this).equals("ru")) setLanguageImageToRu();
+//        else setLanguageImageToEn();
+//    }
+//
+//
+//
+//    private void initLanguageButtonAndInitForOcl(){
+//        setImageInLanguageFirstLaunch();
+//        final String language_ru = "ru";
+//        final String language_en = "en";
+//        ImageView languageView = findViewById(R.id.currentLanguage);
+//        languageView.setOnClickListener(v -> {
+//            String language = SwitchLanguage.getLanguage(getBaseContext());
+//            Log.d("CURRENT LANGUAGE 1",SwitchLanguage.getLanguage(getBaseContext()));
+//            if(language.equals(language_ru)){
+//                setLanguageImageToEn();
+//                SwitchLanguage.setLocale(getBaseContext(),language_en);
+//                Log.d("CURRENT LANGUAGE 2",SwitchLanguage.getLanguage(getBaseContext()));
+//            }else{
+//                setLanguageImageToRu();
+//                SwitchLanguage.setLocale(getApplicationContext(),language_ru);
+//                Log.d("CURRENT LANGUAGE",SwitchLanguage.getLanguage(getBaseContext()));
+//            }
+//            recreate();
+//        });
+//    }
+//
+//    private void setLanguageImageToRu(){
+//        ((ImageView) findViewById(R.id.currentLanguage)).setImageDrawable(getResources().getDrawable(R.drawable.ru_flag));
+//    }
+//
+//    private void setLanguageImageToEn(){
+//        ((ImageView) findViewById(R.id.currentLanguage)).setImageDrawable(getResources().getDrawable(R.drawable.en_flag));
+//    }
 
 }
