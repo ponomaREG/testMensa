@@ -1,12 +1,12 @@
 # testMensa
 IQ Test Mensa
-
 Test from the site: http://test.mensa.no/
 
-![resized___Screenshot_2020-03-30-00-18-28-590_com example mensatest](https://user-images.githubusercontent.com/42519654/77864062-548d9c80-7248-11ea-8ca9-83955dcdc019.jpg)
-![resized___Screenshot_2020-03-30-00-18-33-723_com example mensatest](https://user-images.githubusercontent.com/42519654/77864063-55bec980-7248-11ea-983d-e713f6c481fe.jpg)
-![resized___Screenshot_2020-03-30-02-18-00-624_com example mensatest](https://user-images.githubusercontent.com/42519654/77864064-56576000-7248-11ea-8649-105071f07d63.jpg)
-![resized___Screenshot_2020-03-30-02-18-06-737_com example mensatest](https://user-images.githubusercontent.com/42519654/77864065-56eff680-7248-11ea-9ef2-b26effcf4a0e.jpg)
-![resized___Screenshot_2020-03-30-02-18-17-099_com example mensatest](https://user-images.githubusercontent.com/42519654/77864066-57888d00-7248-11ea-8d64-4c94f42261e2.jpg)
-![resized___Screenshot_2020-03-30-02-19-45-165_com example mensatest](https://user-images.githubusercontent.com/42519654/77864060-53f50600-7248-11ea-96b0-5ef032eedf57.jpg)
-![resized___Screenshot_2020-03-30-02-19-12-184_com example mensatest](https://user-images.githubusercontent.com/42519654/77864067-59525080-7248-11ea-9bb8-bbc8b28863e2.jpg)
+![resized___resized___Screenshot_2020-03-30-17-27-58-188_com example mensatest](https://user-images.githubusercontent.com/42519654/77938941-48512000-72d8-11ea-8d58-24d2a3fcaaff.jpg)
+![resized___resized___Screenshot_2020-03-30-17-28-10-238_com example mensatest](https://user-images.githubusercontent.com/42519654/77938945-49824d00-72d8-11ea-9c4e-12d4d300d57d.jpg)
+![resized___resized___Screenshot_2020-03-30-17-28-16-020_com example mensatest](https://user-images.githubusercontent.com/42519654/77938946-49824d00-72d8-11ea-948d-86223207d6f5.jpg)
+![resized___resized___Screenshot_2020-03-30-17-28-25-714_com example mensatest](https://user-images.githubusercontent.com/42519654/77938949-4ab37a00-72d8-11ea-99cd-783daada3baa.jpg)
+![resized___resized___Screenshot_2020-03-30-17-28-33-314_com example mensatest](https://user-images.githubusercontent.com/42519654/77938951-4b4c1080-72d8-11ea-9a0a-cfa5a894522e.jpg)
+![resized___resized___Screenshot_2020-03-30-17-28-37-802_com example mensatest](https://user-images.githubusercontent.com/42519654/77938955-4b4c1080-72d8-11ea-8797-e7327b5f6e35.jpg)
+![resized___resized___Screenshot_2020-03-30-17-33-23-442_com example mensatest](https://user-images.githubusercontent.com/42519654/77938958-4be4a700-72d8-11ea-9df2-1f15bc2090f8.jpg)
+
