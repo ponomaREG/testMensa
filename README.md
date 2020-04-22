@@ -1,6 +1,7 @@
 # testMensa
 IQ Test Mensa
 Test from the site: http://test.mensa.no/
+https://play.google.com/store/apps/details?id=com.test.mensa
 
 ![resized___resized___Screenshot_2020-03-30-17-27-58-188_com example mensatest](https://user-images.githubusercontent.com/42519654/77938941-48512000-72d8-11ea-8d58-24d2a3fcaaff.jpg)
 ![resized___resized___Screenshot_2020-03-30-17-28-16-020_com example mensatest](https://user-images.githubusercontent.com/42519654/77938946-49824d00-72d8-11ea-948d-86223207d6f5.jpg)
