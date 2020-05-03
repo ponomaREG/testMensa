@@ -21,6 +21,7 @@
     <string name="dialogTaskInfoExit">Exit</string>
     <string name="dialogDescExit">Are you sure you want to go out?</string>
     <string name="dialogDescInfo">The test is taken from the site mensa.no</string>
+
     <string name="dialogMarkTitle">Share the result</string>
     <string name="dialogMarkDescription">Leave a comment with your result, so that others can compare the results with yours</string>
     <string name="dialogMarkButtonSetMark">Write a feedback</string>

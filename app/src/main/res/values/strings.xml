@@ -21,6 +21,7 @@
     <string name="dialogTaskInfoExit">Выход</string>
     <string name="dialogDescExit">Вы точно хотите выйти?</string>
     <string name="dialogDescInfo">Тест взят с сайт mensa.no</string>
+
     <string name="dialogMarkTitle">Поделитесь результатом</string>
     <string name="dialogMarkDescription">Оставьте отзыв со своим результатом, чтобы другие могли сравнить результаты со Вашими</string>
     <string name="dialogMarkButtonSetMark">Оставить отзыв</string>
